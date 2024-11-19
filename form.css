@@ -31,10 +31,6 @@ h1 {
   background: #ffffff;
   transition: all 1s ease-in-out;
 }
-/* .container:hover{
-  transform: translateY(-15px) skew(-3deg ,-3deg) rotate(3deg);
-  box-shadow: 30px 30px 15px 15px rgb(78, 40, 98);
-} */
 .form {
   display: flex;
   flex-direction: column;

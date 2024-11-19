@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(122 67 151);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(122 67 151);
+  font-weight: 900;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 30px 30px rgb(78, 40, 98);
+  height: 80%;
+  width: 40%;
+  background: #ffffff;
+  transition: all 1s ease-in-out;
+}
+/* .container:hover{
+  transform: translateY(-15px) skew(-3deg ,-3deg) rotate(3deg);
+  box-shadow: 30px 30px 15px 15px rgb(78, 40, 98);
+} */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 15px; */
+  width: 100%;
+}
+a {
+  color: rgb(122 67 151);
+  /* text-decoration: none; */
+  font-size: 16px;
+  font-weight: 900;
+}
+label {
+  /* transform: translatex(-85px); */
+  font-size: 1em;
+  font-weight: 700;
+  /* margin: 5px 50px; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid #000000;
+  box-shadow: 2px 2px;
+  flex-grow: 1;
+  width: 60%;
+  /* margin: 5px 50px; */
+}
+.submit {
+  background-color: rgb(122 67 151);
+  color: #0b0808;
+  width: 60%;
+  border: 3px solid #000000;
+  box-shadow: 2px 2px;
+  border-radius: 50px;
+  padding: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 4px;
+}
+p {
+  margin: 5px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60%;
+    height: 80%;
+  }
+}
+@media screen and (max-width: 486px) {
+  .container {
+    width: 80%;
+    height: 90%;
+  }
+}

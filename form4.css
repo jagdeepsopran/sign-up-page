@@ -1,0 +1,130 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Form Styling */
+  .form {
+    width: 100%;
+  }
+  
+  .form-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form-item input {
+    width: 100%;
+    padding: 12px 40px 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-item input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Eye Icon for Password Toggle */
+  #pass {
+    position: relative;
+  }
+  
+  .bi-eye {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #aaa;
+  }
+  
+  .bi-eye:hover {
+    color: #333;
+  }
+  
+  /* Password Check Styles */
+  .pass-checks {
+    text-align: left;
+    margin-top: 15px;
+  }
+  
+  .pass-checks h1 {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+  }
+  
+  .pass-checks i {
+    color: #28a745;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  /* Submit Button */
+  .submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Login Text */
+  .login {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .login a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login a:hover {
+    text-decoration: underline;
+  }
+  
